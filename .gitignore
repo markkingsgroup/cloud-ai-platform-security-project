@@ -1,0 +1,27 @@
+# secrets / credentials
+.env
+*.env
+*.pem
+*.key
+*.ppk
+credentials
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# scan output
+*.sarif
+report.html
