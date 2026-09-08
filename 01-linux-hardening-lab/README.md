@@ -64,6 +64,8 @@ sudo ufw status
 systemctl is-active fail2ban auditd 2>/dev/null
 ```
 
+Baseline taken
+![[Pasted image 20260907231913.png]]
 ### Step 2, Write the hardening script
 
 ```bash
@@ -77,13 +79,15 @@ ufw default deny incoming; ufw default allow outgoing; ufw allow 22/tcp; ufw --f
 
 Keep a second SSH session open while testing key-only login - locking yourself out is the classic mistake.
 
+Script created.
+![[Pasted image 20260907232221.png]]
 ### Step 3, Add brute-force, audit and auto-patch controls
 
 ```bash
-apt-get install -y fail2ban auditd unattended-upgrades
-printf "[sshd]\nenabled=true\nmaxretry=5\nbantime=3600\n" > /etc/fail2ban/jail.local
-echo "-w /etc/sudoers -p wa -k actions" >> /etc/audit/rules.d/hardening.rules
-systemctl enable --now fail2ban auditd
+sudo apt-get install -y fail2ban auditd unattended-upgrades
+sudo printf "[sshd]\nenabled=true\nmaxretry=5\nbantime=3600\n" > /etc/fail2ban/jail.local
+sudo echo "-w /etc/sudoers -p wa -k actions" >> /etc/audit/rules.d/hardening.rules
+sudo systemctl enable --now fail2ban auditd
 ```
 
 ### Step 4, Write the audit verifier and run it
