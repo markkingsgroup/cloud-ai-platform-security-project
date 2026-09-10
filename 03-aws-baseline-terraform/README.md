@@ -73,6 +73,9 @@ resource "aws_cloudtrail" "t" { name="org-trail"; s3_bucket_name=aws_s3_bucket.l
   is_multi_region_trail=true; enable_log_file_validation=true }
 ```
 
+Screen Shot: Baseline
+
+
 ### Step 3, Detective controls
 
 ```bash

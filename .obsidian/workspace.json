@@ -11,12 +11,14 @@
             "id": "1f854d13c724ed16",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "01-linux-hardening-lab/image.png"
+                "file": "03-aws-baseline-terraform/README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "image"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -188,24 +190,26 @@
   },
   "active": "1f854d13c724ed16",
   "lastOpenFiles": [
+    "03-aws-baseline-terraform/image.png",
+    "02-phishing-analyzer/image-2.png",
+    "03-aws-baseline-terraform/attachments",
+    "Untitled",
+    "01-linux-hardening-lab/README.md",
+    "02-phishing-analyzer/attachments/Screenshot 2026-09-09 222243.png",
+    "01-linux-hardening-lab/image.png",
     "02-phishing-analyzer/image-1.png",
     "02-phishing-analyzer/README.md",
     "02-phishing-analyzer/image.png",
-    "02-phishing-analyzer/attachments/Screenshot 2026-09-09 222243.png",
-    "01-linux-hardening-lab/README.md",
     "02-phishing-analyzer/attachments",
     "01-linux-hardening-lab/attachments/scriptcreated.png",
     "01-linux-hardening-lab/attachments/baseline.png",
     "01-linux-hardening-lab/attachments",
     "01-linux-hardening-lab/New folder",
-    "01-linux-hardening-lab/image.png",
     "attachments/baseline.png",
     "attachments/scriptcreated.png",
     "PROFILE_README.md",
     "scriptcreated.png",
-    "baseline.png",
     "attachments",
-    "New folder",
-    "Pasted image 20260907232221.png"
+    "New folder"
   ]
 }
