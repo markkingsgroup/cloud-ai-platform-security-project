@@ -65,7 +65,7 @@ systemctl is-active fail2ban auditd 2>/dev/null
 ```
 
 Baseline taken
-attachments/baseline.png
+https://github.com/markkingsgroup/cloud-ai-platform-security-project/blob/main/attachments/baseline.png
 ### Step 2, Write the hardening script
 
 ```bash
