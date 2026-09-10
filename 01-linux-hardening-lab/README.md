@@ -65,7 +65,7 @@ systemctl is-active fail2ban auditd 2>/dev/null
 ```
 
 Baseline taken
-![[Pasted image 20260907231913.png]]
+attachments/baseline.png
 ### Step 2, Write the hardening script
 
 ```bash
