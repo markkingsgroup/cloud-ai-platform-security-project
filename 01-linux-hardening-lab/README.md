@@ -64,7 +64,8 @@ sudo ufw status
 systemctl is-active fail2ban auditd 2>/dev/null
 ```
 
-Baseline taken
+Baseline taken:
+
 <img width="820" height="273" alt="image" src="https://github.com/user-attachments/assets/36db4f51-c003-4976-9957-e16402cf041d" />
 
 ### Step 2, Write the hardening script
