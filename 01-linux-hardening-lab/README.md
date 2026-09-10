@@ -65,8 +65,6 @@ systemctl is-active fail2ban auditd 2>/dev/null
 ```
 
 <<<<<<< HEAD
-Baseline Image
-![alt text](image.png)
 =======
 Baseline taken:
 
