@@ -71,6 +71,10 @@ def score(u):
     return s,why
 ```
 
+Sample screenshot:
+
+![alt text](image.png)
+
 ### Step 3, Parse email auth headers
 
 ```bash
